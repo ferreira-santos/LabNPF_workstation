@@ -1,0 +1,56 @@
+IDEA #1
+
+Create an entry in the LabWiki listing our workstations:
+
+PC-VonNeumann
+CPU: Intel i7-2600 @ 3.40GHz
+RAM: 8 GB
+GPU: (none)
+OS Disk: 60 GB (SSD)
+Storage Disk: 2 TB
+Network Name: FPCEUP-014-D01
+
+OS: Windows 7 Professional 64-bit SP1
+EEGLAB version: 14.1.2b
+ERPLAB version: 7.0.0
+Standardized toolbox locations ("C:\LabNPF_workstation\matlab_toolboxes\")? YES
+
+
+PC-LabNPF
+CPU: Intel i7-7700 @ 3.60 GHz
+RAM: 16 GB
+GPU: (none)
+OS Disk: 240 GB (SSD)
+Storage Disk: 2 TB
+Network Name: FPCEUP-014-D02
+
+OS: Windows 10 Enterprise 64-bit
+EEGLAB version: 13.6.5b
+ERPLAB version: 6.1.3
+Standardized toolbox locations ("C:\LabNPF_workstation\matlab_toolboxes\")? No
+
+
+
+(wiki text)
+Each lab workstation will have a folder "C:\LabNPF_workstation" to store files related to managing the workstation, matlab toolboxes, and other lab-related files. This allows users to quickly find the relevant information about the lab software that is installed and to easily perform updates.
+
+(IDEA: This folder should be backed up in the LabWiki).
+
+Subfolders:
+"\_manage_workstation"
+	- Link to LabWiki section on the lab's workstations
+	- Text file with the specifications of the PC (Speccy)
+	- Scripts for activation of softare (e.g., Microsoft Office U.Porto KMS activation)
+	- Other files relevant for managing the workstations
+"\matlab_toolboxes"
+	- Place toolbox folders here (e.g., EEGLAB).
+	- When installing the toolbox, add the toolbox folder to the Matlab path, and save.
+	- Update the LabWiki to correctly show the installed toolboxes and version numbers.
+	-(add this folder to the Matlab path without subfolders and save)
+"\r_scripts"
+	- Scripts for installing important R packages automatically when R is updated.
+	- Maintain version control.
+
+
+
+

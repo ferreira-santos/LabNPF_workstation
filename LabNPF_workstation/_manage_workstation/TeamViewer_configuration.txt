@@ -1,0 +1,32 @@
+TeamViewer configuration (2018-06-06)
+-------------------------------------
+
+- Extras | Options |
+
+  - Security
+
+    - Personal Password (for unattended access) >> [Define password]
+
+    - Random Password >> [Select "Disabled (no random password)"
+
+    - Rules for connections to this computer | Black and Whitelist | Configure >> [Select "Allow access only for the following partners" and add whitelisted contacts]
+
+
+  - Advanced | Show Advanced Options |
+
+    - Advanced setting for connections to this computer
+
+      - Access Control >> [Select "Custom settings"]
+
+      - Details... >> 
+        - Connect and view my screen - Allowed
+        - Control this computer - Allowed
+        - Transfer files - Allowed
+        - Establish a VPN connections to this computer - Denied
+        - Lock the local keyboard and mouse - Denied
+        - Control the local TeamViewer - Denied
+        - File transfer using the file box - Allowed
+        - Print on remote printer - Denied
+        - Change sides allowed - Denied
+
+    - TeamViewer options | Protect options with password >> [Define password here and in the confirmation]

@@ -1,0 +1,14 @@
+(2018-05: From https://github.com/lucklab/erplab/wiki/Installation)
+
+Basic Steps
+Download latest ERPLAB
+
+To install ERPLAB:
+
+Make sure that EEGLAB is not running
+Place the ERPLAB folder inside the EEGLAB plugins folder. For example, you might place ERPLAB in a path like this: Documents > MATLAB > eeglab12_0_1_0b > plugins
+Note: Due to differences among operating systems, the ERPLAB files are sometimes embedded within an additional folder layer. You should make sure that the erplab folder inside the EEGLAB plugins folder contains a file named eegplugin_erplab.m. If it does not, but instead contains another folder with "erplab" in the name, you may need to eliminate the enclosing erplab folder.
+
+Matlab keeps information about where programs and other files are located in a path variable. When you first put ERPLAB into the EEGLAB plugins folder, Matlab doesn't know to look in this folder. Recent versions of EEGLAB (version 12 and higher) will automatically look in the plugins folder and add any plugins to the path (including the ERPLAB plugin). If you are using an older version of EEGLAB, you will need to manually add the ERPLAB folder to the path. To accomplish this, launch MATLAB and choose File > Set Path. If you are upgrading from a previous installation, you should remove any elements of the the path from the previous installation (anything with "erplab" in it). Then select Add with subfolders. Browse to select the path for the erplab folder in the EEGLAB plugins folder, which will look something like this: Documents > MATLAB > eeglab12_0_1_0b > plugins > erplab_4.0.0.137
+
+Then save your new path. With older versions of EEGLAB, you must update the path every time you install a new version of ERPLAB.

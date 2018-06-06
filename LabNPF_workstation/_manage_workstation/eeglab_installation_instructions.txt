@@ -1,0 +1,8 @@
+(2018-05: From https://sccn.ucsd.edu/eeglab/downloadtoolbox.php)
+
+To install EEGLAB
+
+- Unzip the EEGLAB zip file in the folder of your choice
+- Start Matlab
+- Change the Matlab path to the EEGLAB folder you have just uncompressed
+- Type "eeglab" and press enter on the Matlab prompt
