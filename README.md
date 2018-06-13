@@ -1,6 +1,6 @@
 # LabNPF_workstation folder
 
-The LabNPF_workstation folder is destined to automate and simplify the workflow when using the PC workstations at the [Laboratory of Neuropsychophysiology](https://www.fpce.up.pt/labpsi). As such, each PC workstation in the lab contains the folder "C:\LabNPF_workstation" to store files related to managing the workstation, matlab toolboxes, and other lab-related files. This allows users to quickly find the relevant information about the lab software that is installed and to easily perform updates.
+The LabNPF_workstation folder is destined to automate and simplify the workflow when using the PC workstations at the [Laboratory of Neuropsychophysiology](https://www.fpce.up.pt/labpsi). As such, each PC workstation in the lab contains the folder "C:\LabNPF_workstation" to store files related to managing the workstation, matlab toolboxes, and other lab-related files. This allows users to quickly find the relevant information about the lab software that is installed and to easily perform updates - this is especially important when managing EEGLAB (and ERPLAB) versions on the workstation.
 
 ## Instalation/update
 To install/setup the LabNPF_workstation folder, simply download the folder from GitHub (https://github.com/ferreira-santos/LabNPF_workstation) and copy it to the root directory ("C:\").
