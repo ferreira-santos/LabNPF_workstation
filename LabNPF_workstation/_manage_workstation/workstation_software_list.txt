@@ -1,8 +1,13 @@
+[OS and tools]
 Windows 10 (64 bits)
-Office 2016 (Word, Excel, Powerpoint)
+Office (Word, Excel, Powerpoint)
 Anti-virus
 Chrome/Firefox
+CopyFilenames
+Notepad++
 
+
+[Research and analysis]
 E-Prime
 OpenSesame
 
@@ -15,7 +20,8 @@ R + RStudio
 SPSS
 JASP
 
-To install in 1 workstaion:
+
+[To install in 1 workstaion:]
 FantaMorph
 SuperLab
 Presentation

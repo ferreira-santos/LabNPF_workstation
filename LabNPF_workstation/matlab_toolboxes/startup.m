@@ -28,5 +28,5 @@ disp('   EGI 128-channels (excludes Cz): GSN-HydroCel-128.sfp');
 disp('   ANT 32-channels: ANT_WG_standard_32.ced');
 disp('   10-20 SI 19-channels: Standard-10-20-Cap19.ced');
 disp(' ');
-disp('Electrode location files at: C:\LabNPF_workstation\eeglab_channel_locations');
+disp('Electrode location files at: C:\LabNPF_workstation\utils\eeglab_channel_locations');
 disp(' ');
