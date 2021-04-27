@@ -9,11 +9,10 @@ Developed for and tested on Windows (Windows 10). Usability in other operating s
 ## Instalation/update
 To install/setup the LabNPF_workstation folder:
 
-1. Download the folder's **source code** from GitHub (https://github.com/ferreira-santos/LabNPF_workstation/releases) and extract the folder "LabNPF_workstation" it to the root directory ("C:\").
-2. Then add the folder "C:\LabNPF_workstation\matlab_toolboxes\" to the MATLAB path (make sure you save this change).
-3. Then, copy the toolboxes (like EEGLAB) to the "\matlab_toolboxes" folder.
-
-When updating, it is necessary to first delete the previous version of the LabNPF_workstation folder, and then download and copy the new version. You will have to reinstall the toolboxes as well.
+1. Download the folder's **source code** from GitHub (https://github.com/ferreira-santos/LabNPF_workstation/releases).
+2. Extract and run the installation/update script "install.cmd". This script will automatically create (or update) the folder "LabNPF_workstation" to the root directory ("C:\"). When updating via the script, it is **not** necessary to delete the previous version of the LabNPF_workstation folder and all existing MATLAB toolboxes are preserved (everything else is removed or overwritten).
+3. Then add the folder "C:\LabNPF_workstation\matlab_toolboxes\" to the MATLAB path, without adding subfolders (make sure you save this change).
+4. Then, copy any toolboxes you need (like EEGLAB) to the "\matlab_toolboxes" folder.
 
 ## Details
 The present structure of the LabNPF_workstation folder is the following:
