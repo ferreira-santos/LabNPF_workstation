@@ -34,6 +34,7 @@ The present structure of the LabNPF_workstation folder is the following:
 		- EGI HydroCel-GSN 128 layout PDF
 
 ## Changelog
+- v0.2.1 - Added "description.txt" for local access to information. Minor correction to the documentation.
 - v0.2 - Updated "\\_manage_workstation", added "\\utils".
 - v0.1 - Initial release.
 
