@@ -4,6 +4,8 @@ The LabNPF_workstation folder is destined to automate and simplify the workflow 
 
 Please note this package was designed specifically to address issues in our lab (namely managing multiple versions of MATLAB toolboxes in the same computer), so it may not be appropriate for other settings. However, anyone is welcome to use it and modify it as needed.
 
+Developed for and tested on Windows (Windows 10). Usability in other operating systems was not tested.
+
 ## Instalation/update
 To install/setup the LabNPF_workstation folder:
 
@@ -42,4 +44,4 @@ Possible updates to the folder include:
 - cheatsheets/reference documents (e.g., conversion between EGI and 10-20 electrode positions)
 - add subfolder "r_scripts" for installing important R packages automatically when R is updated?
 
-Lab members are welcome to suggest improvements to the folder. Please use the "issues" tool in GitHub (https://github.com/ferreira-santos/LabNPF_workstation/issues).
+Lab members are welcome to report bugs or suggest improvements to the folder. Please use the "issues" tool in GitHub (https://github.com/ferreira-santos/LabNPF_workstation/issues).
