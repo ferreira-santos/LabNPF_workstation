@@ -24,7 +24,7 @@ The present structure of the LabNPF_workstation folder is the following:
 		- 3) Link to Download "Patch My PC" (https://patchmypc.com/home-updater)
 		- Other files relevant for managing the workstations (e.g., eeglab toolbox installation instructions)
 	- "\matlab_toolboxes"
-		- This folder **must be added to the Matlab path** and saved.
+		- This folder **must be added to the Matlab path** and saved (do not include subfolders).
 		- Place toolbox folders here (e.g., EEGLAB).
 		- For EEGLAB: **do not** add the EEGLAB folder to the Matlab path. This will be done automatically via the startup scripts in the LabNPF_workstation folder.
 		- Place custom matlab functions here (files "labnpf_(...).m").
