@@ -1,7 +1,7 @@
 @echo off
 
 rem Installer/updater for the LabNPF_workstation Folder
-rem		https://github.com/ferreira-santos/LabNPF_workstation
+rem	https://github.com/ferreira-santos/LabNPF_workstation
 rem 	Fernando Ferreira-Santos
 
 echo.
@@ -49,6 +49,8 @@ if not exist C:\LabNPF_workstation\ (
 :exit
 echo.
 echo LabNPF_workstation Folder installation completed. The installation/update process moves the new folder so to reinstall/update please download again.
+echo.
+echo To use, complete the final installation steps (add to MATLAB path) as described: https://github.com/ferreira-santos/LabNPF_workstation#instalationupdate
 echo.
 pause
 goto :EOF
