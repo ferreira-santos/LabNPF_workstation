@@ -1,3 +1,6 @@
+Update 2023-02 - TeamViewer not in use at the moment, but leaving these instructions here in case it comes back to use.
+
+
 TeamViewer configuration (2018-06-06)
 -------------------------------------
 
